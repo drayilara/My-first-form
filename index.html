@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' content='suvey form project'>
+    <title>My First Form</title>
+    
+    <style>
+        body{
+            background-color: #16697a ;
+            margin:100px 70px 100px -40px;
+            font-family:'Anaheim' ;
+        }
+        .big{ 
+            position: relative;
+            left:290px;
+            width:500px;
+            border-style:groove;
+            border-color:gray;
+            border-width:1px;
+            border-radius: 20px;
+            height:1400px;
+            background-color: white;
+            padding:10px;
+            text-indent:5px;}
+            
+
+        .second{
+            border-style: groove;
+            border-color: gray;
+            border-width:1px;
+            margin:5px;
+            padding: 3px;
+        }
+
+        .third{
+            border-style: groove;
+            border-color: gray;
+            border-width:1px;
+            margin:5px;
+            padding:3px;
+        }
+
+        .forth{
+            border-style: groove;
+            border-color: gray;
+            border-width:1px;
+            margin:5px;
+            padding:3px;
+        }
+
+        .fifth{
+            border-style: groove;
+            border-color: gray;
+            border-width:1px;
+            margin:5px;
+            padding:3px;
+        }
+
+        #last{background-color:#ffa62b;
+              width:100px;}
+
+        h1{
+            text-align: center;
+            text-transform: capitalize;
+            font-size: larger;
+            }
+
+       
+    </style>
+</head>
+<body>
+    <div class='big container'>
+        <h1>
+            Application For Permission To Date My Daughter
+        </h1>
+
+        <p><strong>Note:</strong>Form is to be completed at least 21 days prior to date.</p>
+
+    
+
+            
+            
+
+        <form >
+
+                <fieldset>
+
+                    <legend>Personal Details</legend>
+
+                <label>Name:</label>
+                <input type="text" placeholder='Enter text here' required>
+                <br><br>
+
+                <label>Address:</label>
+                <input type="text" placeholder='Enter Address here' required>
+                <br><br>
+
+                <label>Email:</label>
+                <input type="email" placeholder='Enter Email here' required>
+                <br><br>
+
+                <label>Phone Number:</label>
+                <input type="number" placeholder='Enter 10 digit number here' required>
+                <br><br>
+
+                <label>IQ:</label>
+                <input type="number" placeholder='Enter IQ here'>
+                <br>
+
+                
+            
+
+            <p>Gender</p>
+            <br>
+            <input type="radio">
+            <label>Male</label>
+                <br><br>
+            <input type="radio">
+            <label>Female</label>
+                <br><br>
+            <input type="radio">
+            <label>Other</label>
+            <br>
+            <br>
+
+            <label>Date of proposed meeting:</label>
+            <input type="date">
+
+            </fieldset>
+        </form>
+            <br><br>
+        <form class='third container'>
+            <p>Check All That Apply</p>
+
+            
+                <input type="checkbox">
+                <label>I have tatoos and/or pirecings</label>
+                    <br><br>
+                <input type="checkbox">
+                <label>I am more than 2yrs older than my Daughter</label>
+                    <br><br>
+                <input type="checkbox">
+                <label>I own a V8 truck</label>
+                    <br><br>
+                <input type='checkbox'>
+                <label>I work full time</label>
+                    <br><br>
+                <input type='checkbox'>
+                <label>My parents are rich</label>
+                    <br><br>
+                <input type='checkbox'>
+                <label>Is the date at a well lit public loaction?</label>
+            
+            
+        </form>
+                <br>
+        <form class='forth container'>
+
+            <label>Political persuation:</label>
+            
+            <select>
+            <option value="Right wing">Right wing</option>
+            <option value="Left wing">Left wing</option>
+            <option value="Moderate">Moderate</option>
+            <option value="Nazi">Nazi</option>
+            </select>
+           
+            <label>Education level completed:</label>
+
+            <datalist>
+            <option value="University">University</option>
+            <option value="College">College</option>
+            <option value="Post-graduate">post-graduate</option>
+            </datalist>
+            </form>
+
+                <br>
+        <form>
+
+                <fieldset>
+                    <legend>Essay Section</legend>
+
+            <p>In 50 words or more,explain why you want to date my daughter</p>
+
+            <textarea cols="50" rows="5">Enter essay here</textarea>
+
+            <p>Please upload contact details for two references</p>
+
+            <textarea cols='50' rows='5'>Enter references info here</textarea>
+
+            <P>Upload police clearance certificate, Bank statement,and Medical certificate here:<p>
+
+            <input type='file' placeholder='Attach Files' multiple required>
+
+                </fieldset> 
+
+            </form>
+            <br><br>
+                        <center><input id='last' type='submit' placeholder='Sumbit Your Application'></center>
+    </div>
+    
+</body>
+</html>
